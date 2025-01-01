@@ -95,6 +95,26 @@
       "confirmPasswordRequired": "Please confirm your password"
     },
     "continueWithGoogle": "Continue with Google",
+    "continueWithApple": "Continue with Apple",
     "orContinueWith": "Or continue with"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search for devices or repairs...",
+    "startTyping": "Start typing to search",
+    "noResults": "No results found",
+    "categories": {
+      "phones": "Phones",
+      "laptops": "Laptops",
+      "tablets": "Tablets"
+    }
+  },
+  "newsletter": {
+    "title": "Join Our Newsletter",
+    "description": "Subscribe to receive updates about our latest offers and repair services",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "agreeToTerms": "I agree to the",
+    "termsLink": "terms and conditions"
   }
 }

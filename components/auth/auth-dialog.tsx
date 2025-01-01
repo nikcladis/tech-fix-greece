@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { LoginForm } from "./login-form";
 import { SignUpForm } from "./signup-form";
+import { SocialAuthButtons } from "./social-auth-buttons";
 import { useTranslations } from "next-intl";
 import {
   Dialog,
@@ -39,11 +40,27 @@ export function AuthDialog({
             {view === "login" ? t("loginDescription") : t("signupDescription")}
           </DialogDescription>
         </DialogHeader>
-        {view === "login" ? (
-          <LoginForm onToggle={toggleView} />
-        ) : (
-          <SignUpForm onToggle={toggleView} />
-        )}
+
+        <div className="grid gap-6">
+          <SocialAuthButtons />
+
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <span className="w-full border-t" />
+            </div>
+            <div className="relative flex justify-center text-xs uppercase">
+              <span className="bg-background px-2 text-muted-foreground">
+                {t("orContinueWith")}
+              </span>
+            </div>
+          </div>
+
+          {view === "login" ? (
+            <LoginForm onToggle={toggleView} />
+          ) : (
+            <SignUpForm onToggle={toggleView} />
+          )}
+        </div>
       </DialogContent>
     </Dialog>
   );

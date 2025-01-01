@@ -95,6 +95,26 @@
       "confirmPasswordRequired": "Παρακαλώ επιβεβαιώστε τον κωδικό σας"
     },
     "continueWithGoogle": "Συνέχεια με Google",
+    "continueWithApple": "Συνέχεια με Apple",
     "orContinueWith": "Ή συνεχίστε με"
+  },
+  "search": {
+    "title": "Αναζήτηση",
+    "placeholder": "Αναζήτηση συσκευών ή επισκευών...",
+    "startTyping": "Ξεκινήστε να πληκτρολογείτε για αναζήτηση",
+    "noResults": "Δεν βρέθηκαν αποτελέσματα",
+    "categories": {
+      "phones": "Κινητά",
+      "laptops": "Laptop",
+      "tablets": "Tablet"
+    }
+  },
+  "newsletter": {
+    "title": "Εγγραφείτε στο Newsletter μας",
+    "description": "Εγγραφείτε για να λαμβάνετε ενημερώσεις για τις τελευταίες προσφορές και υπηρεσίες επισκευής",
+    "emailPlaceholder": "Εισάγετε το email σας",
+    "subscribe": "Εγγραφή",
+    "agreeToTerms": "Συμφωνώ με τους",
+    "termsLink": "όρους και προϋποθέσεις"
   }
 }
