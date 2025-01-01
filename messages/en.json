@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "title": "TechFix Greece",
+    "description": "Get instant repair cost estimates for your devices. Professional service across Greece.",
+    "button": "Get Free Estimate"
+  },
+  "estimate": {
+    "title": "Get an Estimate",
+    "device": "Device",
+    "devicePlaceholder": "e.g., iPhone 13",
+    "issue": "Issue",
+    "issuePlaceholder": "Describe the issue",
+    "submit": "Get Estimate",
+    "estimatedCost": "Estimated Repair Cost:"
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "fast": {
+      "title": "Fast Service",
+      "description": "Quick turnaround times for all repairs"
+    },
+    "professional": {
+      "title": "Professional Team",
+      "description": "Experienced technicians with proven expertise"
+    },
+    "warranty": {
+      "title": "Warranty",
+      "description": "All repairs come with a 6-month warranty"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "phones": {
+      "title": "Phone Repair",
+      "description": "Screen replacement, battery service, and more"
+    },
+    "laptops": {
+      "title": "Laptop Repair",
+      "description": "Hardware fixes and performance optimization"
+    },
+    "tablets": {
+      "title": "Tablet Repair",
+      "description": "Screen repairs, charging issues, and other services"
+    }
+  },
+  "footer": {
+    "license": "All rights reserved.",
+    "follow": "Follow us on",
+    "links": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter"
+    }
+  },
+  "nav": {
+    "search": "Search",
+    "cart": "Cart",
+    "login": "Login",
+    "theme": "Toggle theme",
+    "cartEmpty": "Your cart is empty",
+    "menu": "Menu",
+    "switchLanguage": "Switch language",
+    "menuDescription": "Access navigation options"
+  },
+  "auth": {
+    "login": "Login",
+    "loginTitle": "Login to your account",
+    "loginDescription": "Enter your credentials to access your account",
+    "signup": "Sign up",
+    "signupTitle": "Create an account",
+    "signupDescription": "Create a new account to get started",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "signupLink": "Sign up",
+    "loginLink": "Login",
+    "confirmPassword": "Confirm Password",
+    "validation": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "emailLowercase": "Email must be lowercase",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 8 characters",
+      "passwordUppercase": "Password must contain at least one uppercase letter",
+      "passwordLowercase": "Password must contain at least one lowercase letter",
+      "passwordNumber": "Password must contain at least one number",
+      "passwordSpecial": "Password must contain at least one special character",
+      "passwordMatch": "Passwords must match",
+      "nameRequired": "Name is required",
+      "nameMin": "Name must be at least 2 characters",
+      "nameMax": "Name cannot exceed 50 characters",
+      "nameFormat": "Name can only contain letters and spaces",
+      "confirmPasswordRequired": "Please confirm your password"
+    },
+    "continueWithGoogle": "Continue with Google",
+    "orContinueWith": "Or continue with"
+  }
+}
