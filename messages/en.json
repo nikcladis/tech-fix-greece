@@ -100,9 +100,11 @@
   },
   "search": {
     "title": "Search",
+    "description": "Search for devices and repair services",
     "placeholder": "Search for devices or repairs...",
     "startTyping": "Start typing to search",
     "noResults": "No results found",
+    "popularSearches": "Popular Searches",
     "categories": {
       "phones": "Phones",
       "laptops": "Laptops",

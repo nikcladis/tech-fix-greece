@@ -16,6 +16,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
+  SheetDescription,
 } from "./sheet";
 import { useState } from "react";
 
@@ -33,7 +34,7 @@ export function Navbar() {
         <SearchBar />
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-4 ">
+        <div className="hidden md:flex items-center gap-4">
           <CartPanel />
           <Button variant="ghost" onClick={() => setIsAuthOpen(true)}>
             <User className="h-5 w-5 mr-3" />
@@ -54,7 +55,27 @@ export function Navbar() {
           </Button>
           <ThemeToggle />
           <CartPanel />
-          <Sheet>{/* ... rest of mobile menu */}</Sheet>
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon">
+                <Menu className="h-5 w-5" />
+                <span className="sr-only">{t("menu")}</span>
+              </Button>
+            </SheetTrigger>
+            <SheetContent>
+              <SheetHeader>
+                <SheetTitle>{t("menu")}</SheetTitle>
+                <SheetDescription>{t("menuDescription")}</SheetDescription>
+              </SheetHeader>
+              <div className="flex flex-col gap-4 mt-4">
+                <Button variant="ghost" onClick={() => setIsAuthOpen(true)}>
+                  <User className="h-5 w-5 mr-3" />
+                  {authT("login")}
+                </Button>
+                <LanguageSwitcher />
+              </div>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
 
