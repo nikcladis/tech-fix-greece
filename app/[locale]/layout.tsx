@@ -1,6 +1,6 @@
-import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
-import { Navbar } from "@/components/ui/navbar";
+import { notFound } from "next/navigation";
+import { BaseLayout } from "@/components/layouts/base-layout";
 
 type Props = {
   children: React.ReactNode;
@@ -20,15 +20,14 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   let messages;
   try {
-    messages = (await import(`../../messages/${locale}.json`)).default;
+    messages = (await import(`@/messages/${locale}.json`)).default;
   } catch (error) {
     notFound();
   }
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <Navbar />
-      <div className="pt-16">{children}</div>
+      <BaseLayout>{children}</BaseLayout>
     </NextIntlClientProvider>
   );
 }

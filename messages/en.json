@@ -118,5 +118,15 @@
     "subscribe": "Subscribe",
     "agreeToTerms": "I agree to the",
     "termsLink": "terms and conditions"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the page you're looking for. Please check the URL or go back to the homepage.",
+    "backHome": "Back to Home"
+  },
+  "error": {
+    "title": "Something went wrong!",
+    "description": "An error occurred while processing your request. Please try again later.",
+    "tryAgain": "Try Again"
   }
 }
